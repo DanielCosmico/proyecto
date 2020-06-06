@@ -2,6 +2,7 @@ import React from "react"
 import Header from "./header"
 import { Helmet } from "react-helmet"
 import { css, Global } from "@emotion/core"
+import "bootstrap/dist/css/bootstrap.min.css"
 
 const Layout = props => {
   return (
@@ -9,7 +10,7 @@ const Layout = props => {
       <Global
         styles={css`
           html {
-            font-size: 65.5%;
+            font-size: 100%;
           }
           body {
             font-size: 16px;

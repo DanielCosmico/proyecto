@@ -20,6 +20,10 @@ const NavLink = styled(Link)`
   text-decoration: none;
   padding: 1rem;
   margin-right: 1rem;
+  &:hover {
+    color: #ebebeb;
+    text-decoration: none;
+  }
   &:last-of-type {
     margin-right: 0;
   }
