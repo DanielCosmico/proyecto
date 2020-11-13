@@ -1,5 +1,6 @@
 import React from "react"
 import Header from "./header"
+import Footer from "./Footer"
 import { Helmet } from "react-helmet"
 import { css, Global } from "@emotion/core"
 import "bootstrap/dist/css/bootstrap.min.css"
@@ -21,7 +22,9 @@ const Layout = props => {
           h2,
           h3 {
             margin: 0;
-            line-height: 1.5;
+            line-height: 1;
+            font-weight: 100;
+            font-size: 1.6rem;
           }
           h1,
           h2 {

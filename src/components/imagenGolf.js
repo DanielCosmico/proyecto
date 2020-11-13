@@ -11,10 +11,14 @@ const ImageBackground = styled(BackgroundImage)`
 const LinkImagen = styled(Link)`
   color: #ffffff;
   font-size: 2rem;
-  font-weight: 700;
-  line-height: 0;
+  font-weight: 100;
+  line-height: 1;
   font-family: "PT Sans", sans-serif;
   text-decoration: none;
+  &:hover {
+    color: #ebebeb;
+    text-decoration: none;
+  }
   @media (min-width: 900px) {
     font-size: 4rem;
   }

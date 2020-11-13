@@ -22,14 +22,15 @@ const Header = () => {
           }
         `}
       >
-        <h1
+        <h2
           css={css`
             color: #fff;
             text-align: center;
+            font-size: 3rem;
           `}
         >
           Golf
-        </h1>
+        </h2>
         <Navegacion />
       </div>
     </header>
